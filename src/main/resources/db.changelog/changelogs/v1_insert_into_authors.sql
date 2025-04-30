@@ -1,0 +1,1 @@
+insert into authors(name) values ('Джоан Роулинг'), ('Джон Рональд Руэл Толкин')

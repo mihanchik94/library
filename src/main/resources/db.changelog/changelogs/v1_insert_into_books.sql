@@ -1,0 +1,1 @@
+insert into books(title, author_id) values ('Гарри Поттер и тайная комната', 1), ('Властелин Колец', 2);

@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: postgres
+    password: password
+    url: jdbc:postgresql://127.0.0.1:5432/library
+  jpa:
+    hibernate:
+      show-sql: true
+  liquibase:
+    change-log: db.changelog/changelog.xml
+
+  security:
+    jwt:
+      secret: NDQ1ZjAzNjQtMzViZjQtMDRjLTljZjQtNjNjYWIyZTU5ZDYw
+      expired: 3600000 #60 minutes
+
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: ./logs

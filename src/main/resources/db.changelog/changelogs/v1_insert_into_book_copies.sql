@@ -1,0 +1,1 @@
+insert into book_copies(inventory_number, book_id, is_available) values ('HP2-001', 1, true), ('HP2-002', 1, true), ('LOTR-001', 2, true);
